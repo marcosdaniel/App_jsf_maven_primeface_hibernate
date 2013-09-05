@@ -98,7 +98,7 @@
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
-            <version>1.2.16</version>
+            <version>1.2.17</version>
         </dependency>
         
         <!-- ####  MYSQL #### -->
@@ -119,6 +119,12 @@
             <groupId>org.jboss.spec.javax.transaction</groupId>
             <type>jar</type>
             <version>1.0.1.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.faces</groupId>
+            <artifactId>javax.faces-api</artifactId>
+            <version>2.1</version>
+            <type>jar</type>
         </dependency>
     </dependencies>
 
